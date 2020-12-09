@@ -1,0 +1,57 @@
+/* this is the style sheet attached to my html file, it applies styles to my html */
+
+a {
+    font-family: helvetica, sans-serif;
+}
+
+a:link {color: lightgreen;}
+a:visited {color: red;}    /* this block styles the links with color */
+a:hover {color: yellow;}
+a:active {color: purple;}
+
+header {
+    text-align: center;
+    background-color: rgba(62, 24, 124, 0.7); /* that fourth number controls the opacity of the color */
+    text-shadow: 2px 2px black;
+    color: yellowgreen;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+footer {
+    height: 80px;
+    font-style: bold;
+    font-size: 30px;
+}
+
+h1, h2, h3{
+    font-family: impact;
+}
+
+p {
+    font-size: 20px;
+    font-style: bold;
+}
+
+body {
+    text-align: center;
+    background-color: darkslateblue;
+    
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(62, 24, 124, 0.7);
+}
+
+ol {
+    list-style-position: inside;
+    background-color: rgba(62, 24, 124, 0.7);
+}
+
+li {
+    font-size: 20px;
+}
