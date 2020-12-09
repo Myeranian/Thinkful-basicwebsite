@@ -4,7 +4,7 @@ a {
     font-family: helvetica, sans-serif;
 }
 
-a:link {color: lightgreen;}
+a:link {color: blue;}
 a:visited {color: red;}    /* this block styles the links with color */
 a:hover {color: yellow;}
 a:active {color: purple;}
@@ -35,7 +35,7 @@ p {
 
 body {
     text-align: center;
-    background-color: darkslateblue;
+    background-color: lightgray;
     
 }
 
